@@ -44,6 +44,7 @@ package
 		
 		private function doConnect(e:MouseEvent):void{
 			//测试用socket服务器地址:"ws://coolaf.com:9010/ajaxchattest"
+			//wss://api.huobipro.com/ws
 			var url:String = encodeURI(f.urltxt.text);
 			websocket = new WebSocket(url,"*");
 			websocket.debug = true;
